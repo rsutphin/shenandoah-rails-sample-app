@@ -1,8 +1,6 @@
 ScalaEnvy (Shenandoah Rails Sample App)
 =======================================
 
-**N.b.: This sample app is a work in progress does not yet use shenandoah**
-
 Welcome to the Rails sample application for [Shenandoah][]. Shenandoah is a JavaScript testing metapackage for projects built with ruby-based tools.  It can be used with any project that builds with `rake` or `buildr`. 
 
 As Shenandoah is a generalization of the [Blue Ridge][blue-ridge] rails plugin, this application is a modification of Blue Ridge's [sample app][blue-ridge-sample] to work with Shenandoah.
@@ -42,7 +40,7 @@ To install:
 
 To run all of the JavaScript specs:
 
-    rake test:javascripts
+    rake shen:spec
 
 To run *all* of tests (i.e., Ruby *and* JavaScript):
 
